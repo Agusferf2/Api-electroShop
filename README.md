@@ -25,7 +25,7 @@ Esta es una API REST fake creada con `json-server` para el proyecto *Electro-Sho
 🌍 API en producción
 
 La API está desplegada en Render y disponible en:
-https://api-electro-shop.onrender.com
+https://api-electroshop.onrender.com/
 
 Prueba los endpoints, por ejemplo:
-https://api-electro-shop.onrender.com/products
+https://api-electroshop.onrender.com/productos
