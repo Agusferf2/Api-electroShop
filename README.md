@@ -1,8 +1,9 @@
 # 🛒 API Electro-Shop
 
 Esta es una API REST fake creada con `json-server` para el proyecto *Electro-Shop*, una tienda de productos electrónicos.
-🔗 **Proyecto desplegado:** [Electro-Shop](https://electro-shop-puce.vercel.app/)  
-🔗 **Repositorio en GitHub:** [ElectroShop](https://github.com/Agusferf2/Electro-Shop)  
+
+- 🔗 **Proyecto desplegado:** [Electro-Shop](https://electro-shop-puce.vercel.app/)  
+- 🔗 **Repositorio en GitHub:** [Electro-Shop](https://github.com/Agusferf2/Electro-Shop)  
 
 
 ## 🚀 Tecnologías utilizadas
