@@ -35,6 +35,22 @@ server.post("/login", async (req, res) => {
   res.json({ token });
 });
 
+server.post("/verificar-token", (req, res) => {
+  const token = req.headers.authorization?.split(" ")[1];
+
+  if (!token) {
+    return res.status(401).json({ error: "No se proporcionó token" });
+  }
+
+  jwt.verify(token, SECRET_KEY, (err, decoded) => {
+    if (err) {
+      return res.status(403).json({ error: "Token inválido o expirado" });
+    }
+    res.json({ message: "Token válido", user: decoded });
+  });
+});
+
+
 server.use(router);
 
 const PORT = process.env.PORT || 3000;
